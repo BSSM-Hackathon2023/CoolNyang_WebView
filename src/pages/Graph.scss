@@ -1,0 +1,54 @@
+.graph-wrap {
+    width: 100vw;
+    height: fit-content;
+    background-color: #00000b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .welcome-graph-wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto 50px 30px;
+
+        .welcome-text {
+            color: #ccc;
+            opacity: 0.8;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .welcome-user-text {
+            font-size: 26px;
+            font-weight: 700;
+            color: #ccc;
+        }
+    }
+
+    .week-sleep-wrap {
+        display: flex;
+        flex-direction: column;
+        width: 86%;
+        color: #ccc;
+
+        .this-week-sleep {
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .last-week-sleep {
+            margin-top: 2px;
+            font-size: 13px;
+            opacity: 0.8;
+            margin-bottom: 4px;
+        }
+    }
+
+    .week-sleep-graph {
+        margin: 16px 0 40px 20px;
+    }
+
+    .week-color-graph {
+        margin-top: -20px;
+    }
+}
